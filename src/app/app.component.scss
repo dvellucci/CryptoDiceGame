@@ -1,0 +1,73 @@
+.DiceRollForm {
+    display: block;
+    margin: 20px auto 0;
+    background-color: #fff;
+    width: 350px;
+    padding: 40px 30px;
+    font-family: "Oswald", sans-serif;
+    color: #333;
+    border-radius: 10px;
+  }
+
+  .DiceRollForm input {
+    box-sizing: border-box;
+		padding: 10px 5px;
+		width: 100%;
+    display: block;
+		margin: 0 auto 10px;
+  }
+
+  .DiceRollForm button {
+    display: block;
+		text-align: center;
+		background-color: #1976d2;
+		color: #fff;
+		padding: 10px 15px;
+		border: none;
+		text-decoration: none;
+		transition: all 0.2s ease-in-out;
+		margin: 20px auto 0;
+  }
+
+  .DiceRollForm button:hover {
+    background-color: #0c3e80;  
+ }
+
+ .DiceRollForm button:active {
+    background-color: #0c3e80;  
+    transform: scale(0.85);
+ }
+
+  .DiceRollForm h1 {
+    text-align: center;
+		margin-bottom: 20px;
+		font-family: "Oswald", sans-serif;
+		margin-bottom: 0;
+  }
+
+  .DiceRollForm p {
+    font-family: "Oswald", sans-serif;
+		text-align: center;
+		font-size: 36px;
+		margin-top: 0;
+		margin-bottom: 20px;
+  }
+
+  .ConnectWalletBtn
+  {
+    display: block;
+		text-align: center;
+		background-color: #6fa3df;
+		color: rgb(255, 255, 255);
+		padding: 5px 10px;
+    font-family: "Oswald", sans-serif;
+		border: none;
+		text-decoration: none;
+		transition: all 0.2s ease-in-out;
+    margin-right: 1%;
+  }
+
+  .ConnectWalletBtn:active
+  {
+    transform: scale(0.80); 
+  }
